@@ -4,7 +4,7 @@ runIf (optional) - checks a single “case” - if false the snippet will not ru
 
 andOr (settings: or, all, each) -
 
-“or” (default) will check check if true starting at the first “case” - if true will output “then” variable - if false will check the next “case” and so on - if no “case”s are true will output “default” variable (optional).
+“or” (default) will check if true starting at the first “case” - if true will output “then” variable - if false will check the next “case” and so on - if no “case”s are true will output “default” variable (optional).
 
 “all” will check each statement and will include each “case”s “then” variable (optional) if true or it’s “else” variable (optional) if false.
 
